@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Variedades Nice</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="description" content="Colo Shop Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--light-slider-css-->
+    <link rel="stylesheet" href="assets/css/lightslider.css">
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--light-slider-js-->
+    <script src="assets/js/lightslider.js"></script>
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--Script MailChimp-->
+    <script id="mcjs">
+        ! function(c, h, i, m, p) {
+            m = c.createElement(h),
+                p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
+        }(document,
+            "script", "https://chimpstatic.com/mcjs-connected/js/users/98f66ce9a3cc804743d1f8ba0/4dd4d7ffd136be871999232e8.js");
+    </script>
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/ae27dd67c9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav>
+        <!--social-link-->
+        <div class="social-call">
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+        <!--menu bar-->
+        <div class="navigation">
+            <a href="#" class="logo">
+                <img src="/assets/img/LOGO_VARIEDADES.png" alt="">
+            </a>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+            <div class="right-menu">
+                <a href="#" class="button">Ver Productos</a>
+                <a href="javascript:void(0);" class="search">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0);" class="user">
+                    <i class="far fa-user" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-shopping-bag" aria-hidden="true">
+						<span class="num-cart-product">0</span>
+                    </i>
+                </a>
+            </div>
+            <div class="toggle"></div>
+        </div>
+    </nav>
+    <!--search-bar-->
+    <div class="search-bar">
+        <!--search-input-->
+        <div class="search-input">
+            <!--input-->
+            <input type="text" placeholder="Buscar por Producto" />
+            <!--Cancel btn-->
+            <a href="javascript:void(0);" class="search-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </div>
+    <!--Login and sign-up form-->
+    <div class="form">
+        <!--login-->
+        <div class="login-form">
+            <!--cancel-btn-->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <!--heading-->
+            <strong>Inicio de Sesión</strong>
+            <!--inputs-->
+            <form action="">
+                <input type="email" placeholder="ejemplo@gmail.com" name="email" required>
+                <input type="password" placeholder="Contraseña" name="password" required>
+                <!--submit btn-->
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+            <!--forget and sign-up btn-->
+            <div class="form-btns">
+                <a href="#" class="forget">Olvidó su Contraseña?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Crear Cuenta</a>
+            </div>
+        </div>
+        <!--Sign-up-->
+        <div class="sign-up-form">
+            <!--cancel-btn-->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <!--heading-->
+            <strong>Registrarse</strong>
+            <!--inputs-->
+            <form action="">
+                <input type="text" placeholder="Nombre Completo" name="nombrecompleto" required>
+                <input type="email" placeholder="ejemplo@gmail.com" name="email" required>
+                <input type="password" placeholder="Contraseña" name="password" required>
+                <!--submit btn-->
+                <input type="submit" value="Registrarse">
+            </form>
+            <!--forget and sign-up btn-->
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="already-acount">Ya tienes una Cuenta?</a>
+            </div>
+        </div>
+    </div>
+    <main>
+        <!--Full Slider-->
+        <ul id="adaptive" class="cs-hidden">
+            <!--box 1-->
+            <li class="item-a">
+                <!--box-->
+                <div class="full-slider-box f-slide-1"></div>
+            </li>
+
+            <!--box 2-->
+            <li class="item-b">
+                <!--box-->
+                <div class="full-slider-box f-slide-2"></div>
+            </li>
+
+            <!--box 3-->
+            <li class="item-c">
+                <!--box-->
+                <div class="full-slider-box f-slide-3"></div>
+            </li>
+
+            <!--box 4-->
+            <li class="item-d">
+                <!--box-->
+                <div class="full-slider-box f-slide-4"></div>
+            </li>
+        </ul>
+        <!--categorias product-->
+        <div class="wrap">
+            <div class="store-wrapper">
+                <div class="category_list">
+                    <a href="#" class="category_item" category="talleres">Talleres</a>
+                    <a href="#" class="category_item" category="forochat">Forochat</a>
+                    <a href="#" class="category_item" category="guias">Guías</a>
+                </div>
+                <section class="product-list">
+                    <div class="container">
+                        <div class="owl-carousel owl-theme product-item" category="talleres">
+                            <div class="item">
+                                <img src="assets/img/talleres/COMIDA CHINA.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/talleres/PANADERIA COMERCIAL.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/talleres/TALLER BOQUILLAS.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/talleres/TALLER PASTELERIA AMARICANA1.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/talleres/TORTAS COMERCIALES.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/talleres/TORTAS FRIAS.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="owl-carousel owl-theme product-item" category="forochat">
+                            <div class="item">
+                                <img src="assets/img/forochat/BUTTER CREAM.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/forochat/MARQUESAS.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/forochat/PINGUINITOS.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/forochat/TEQUEÑOS.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/forochat/TORTA NEGRA.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/forochat/PAN DE JAMON.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/forochat/SUSPIRO.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="owl-carousel owl-theme product-item" category="guias">
+                            <div class="item">
+                                <img src="assets/img/guias/FOROCHAT MARQUESAS2.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/guias/GUIA BOQUILLAS.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/guias/GUIA COMIDA CHINA.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/guias/QUESILLO.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/guias/YOGURT EN ENVASES.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="text-center"><a href="#" type="button" class="button">Ver Productos</a></div>
+        <!--Banner portichara-->
+        <div id="banner_porti">
+            <img src="assets/img/NICE ADS.jpg" id="img_banner_porti">
+        </div>
+        <!--About-->
+        <section id="about">
+            <div class="about-section">
+                <div class="inner-container">
+                    <h1>nicelis garrido</h1>
+                    <p class="text">
+                        Desde hace 13 años comencé mi emprendimiento de Variedades Nice a través de las redes sociales y el intercambio y orientación de las recetas de manera personal con mis clientes con el fin de darme a conocer mientras acudía a clases para prepararme como
+                        Chef Profesional. Actualmente doy clases presenciales y online desde hace aproximadamente 5 años, con una comunidad de clientes y alumnos muy amplia. Esto me llevó a fundar Variedades Nice, C.A. resultado por el cual luché desde
+                        hace 13 años; y siempre con el norte de crear una empresa en la que se pueda incentivar y preparar a las personas para que puedad aprender, emprender y ser creadoras, con sus propios medios, de un mundo mejor para ellos y los que
+                        los rodean.
+                    </p>
+                    <div class="text-center"><a href="nosotros.html" type="button" class="button">Ver Más</a></div>
+                </div>
+            </div>
+        </section>
+        <!--Contador-->
+        <section id="contador">
+            <div class="contador">
+                <div class="count-row">
+                    <div class="col">
+                        <div class="counter-box">
+                            <i class="fas fa-address-book"></i>
+                            <span>+</span>
+                            <h2 class="counter">500</h2><span>K</span>
+                            <h4>Talleres</h4>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="counter-box">
+                            <i class="fas fa-users"></i>
+                            <span>+</span>
+                            <h2 class="counter">280</h2><span>K</span>
+                            <h4>Alumnos</h4>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="counter-box">
+                            <i class="fas fa-globe"></i>
+                            <span>+</span>
+                            <h2 class="counter">20</h2>
+                            <h4>Paises</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Testimonios-->
+        <section id="testimonials">
+            <div class="testimonials">
+                <h1>Testimonios Alumnos</h1>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="layer"></div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil corporis id eligendi quam culpa expedita, eveniet quis suscipit!</p>
+                                    <div class="imgBx">
+                                        <img src="assets/img/testimonials/testimonials-1.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h2>Steven Famous</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="layer"></div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil corporis id eligendi quam culpa expedita, eveniet quis suscipit!</p>
+                                    <div class="imgBx">
+                                        <img src="assets/img/testimonials/testimonials-2.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h2>Maria Perez</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="layer"></div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil corporis id eligendi quam culpa expedita, eveniet quis suscipit!</p>
+                                    <div class="imgBx">
+                                        <img src="assets/img/testimonials/testimonials-3.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h2>Paulina Vega</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="layer"></div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil corporis id eligendi quam culpa expedita, eveniet quis suscipit!</p>
+                                    <div class="imgBx">
+                                        <img src="assets/img/testimonials/testimonials-4.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h2>Raúl Flores</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="layer"></div>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil corporis id eligendi quam culpa expedita, eveniet quis suscipit!</p>
+                                    <div class="imgBx">
+                                        <img src="assets/img/testimonials/testimonials-5.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h2>Carlos Balza</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- seccion videos de youtube -->
+        <section id="youtube">
+            <div class="container">
+                <div class="row">
+                    <div class="youtube_video">
+                        <iframe width="560" height="315" id="video_id" src="https://www.youtube.com/embed/hb3TpoQSpE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="details_video">
+                        <p>Videos Populares</p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="item_video">
+                        <img src="assets/img/videos/merengue_italiano.png" data-id="hb3TpoQSpE8">
+                        <div class="youtube_icon">
+                            <img src="assets/img/youtube.svg">
+                        </div>
+                    </div>
+                    <div class="item_video">
+                        <img src="assets/img/videos/torta_piña.png" data-id="ICUZCUhgs_g">
+                        <div class="youtube_icon">
+                            <img src="assets/img/youtube.svg">
+                        </div>
+                    </div>
+                    <div class="item_video">
+                        <img src="assets/img/videos/torta_chocolate.png" data-id="TPhn9c2SyjU">
+                        <div class="youtube_icon active">
+                            <img src="assets/img/youtube.svg">
+                        </div>
+                    </div>
+                    <div class="item_video">
+                        <img src="assets/img/videos/torta_quesillo.png" data-id="zJ-WWaVxil4">
+                        <div class="youtube_icon">
+                            <img src="assets/img/youtube.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- banner publicitario -->
+        <div id="banner_porti">
+            <img src="assets/img/NICE ADS.jpg" id="img_banner_porti">
+        </div>
+
+        <!-- seccion destacados -->
+        <section class="destacados">
+            <div class="destacado_curso">
+                <h2 class="title title_border">Destacados</h2>
+                <p class="destacados_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum tenetur inventore vero consequatur commodi nam dicta. Omnis officia iste delectus, id optio at mollitia praesentium, rem debitis exercitationem laboriosam!</p>
+
+                <p class="destacados_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum tenetur inventore vero consequatur commodi nam dicta. Omnis officia iste delectus, id optio at mollitia praesentium, rem debitis exercitationem laboriosam!</p>
+
+                <p class="destacados_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum tenetur inventore vero consequatur commodi nam dicta. Omnis officia iste delectus, id optio at mollitia praesentium, rem debitis exercitationem laboriosam!</p>
+
+                <a href="#" class="cta">Quiero acceder a este curso</a>
+            </div>
+            <figure class="destacados_picture">
+                <img src="assets/img/MARQUESAS LISTO.jpg" class="destacados_img">
+            </figure>
+        </section>
+
+        <!-- seccion newsletter -->
+        <section id="newsletter" class="newsletter">
+            <div class="news">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="content">
+                            <h4>Sucribete a nuestro Newsletter</h4>
+                            <div class="input-group">
+                                <input type="email" class="form-control" name="" placeholder="Ingrese su Email">
+                                <span class="input-group-btn">
+                    <button class="btn" type="sumit">Suscribete</button>
+                    </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cnewsletter" class="cnewsletter">
+            <div class="cnews">
+                <div class="row">
+                    <div class="col-sm-12 ccontent">
+                        <img src="assets/img/IM 250X250.png" />
+                        <p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h1>¡Aprende, Emprende y Sorprende!</h1>
+        <div class="container_footer">
+            <div class="box_footer">
+                <div class="logo">
+                    <img src="assets/img/LOGO_VARIEDADES.png" alt="">
+                </div>
+                <div class="terms">
+                    <p>
+                        <br> Venezuela-Aragua <br> Maracay, Centro<br>
+                        <strong>Teléfono:</strong> +58 412 455 11 55<br>
+                        <strong>Email:</strong> info@variedadesnice.com<br>
+                    </p>
+                </div>
+            </div>
+            <div class="box_footer">
+                <h2>Links</h2>
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Contactos</a>
+            </div>
+            <div class="box_footer">
+                <h2>Productos</h2>
+                <a href="#">Talleres</a>
+                <a href="#">Forochat</a>
+                <a href="#">Guías</a>
+            </div>
+            <div class="box_footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
+                <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fab fa-youtube-square"></i>Youtube</a>
+                <a href="#"><i class="fab fa-tiktok"></i>Tiktok</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--Script Contador-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Script Slick Slider-->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!--script-->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/slick.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
